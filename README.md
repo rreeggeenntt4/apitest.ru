@@ -31,4 +31,4 @@ The Article Search API returns a max of 10 results at a time. The meta node in t
 https://api.nytimes.com/svc/search/v2/articlesearch.json?q=&page=0&api-key=yourkey
 
 
-<video src="https://github.com/rreeggeenntt4/apitest.ru/raw/main/media/2022-12-08%2005-49-29.mkv"></video>
+video https://github.com/rreeggeenntt4/apitest.ru/raw/main/media/2022-12-08%2005-49-29.mkv

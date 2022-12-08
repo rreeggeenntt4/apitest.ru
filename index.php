@@ -10,7 +10,7 @@
   <title>Новости</title>
 </head>
 
-<body>
+<body id="body">
 
   <header class="py-3 mb-4 border-bottom">
     <div class="container d-flex flex-wrap justify-content-center">
@@ -26,14 +26,12 @@
     </div>
   </header>
 
-
   <div class="container">
     <div class="row" id="app">
     </div>
 
     <div class="displayoff" id="morenews" onclick="morenews();">More news</div>
   </div>
-
 
   <script src="/js/bootstrap.bundle.min.js"></script>
   <script src="/js/main.js"></script>

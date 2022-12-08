@@ -92,3 +92,10 @@ function morenews() {
 }
 
 
+// Если пользователь доскролил до низа страницы
+window.addEventListener('scroll', function () {
+    if ((window.innerHeight + window.pageYOffset) >= document.body.offsetHeight) {
+        morenews();
+    }
+});
+
