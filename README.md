@@ -18,7 +18,7 @@
 
 Получаем ключ.
 
-<img src="https://github.com/rreeggeenntt4/apitest.ru/tree/main/media/2022-12-07_21-01-06.png" alt="">
+<img src="https://github.com/rreeggeenntt4/apitest.ru/blob/main/media/2022-12-07_21-01-06.png" alt="">
 
 
 
@@ -31,11 +31,4 @@ The Article Search API returns a max of 10 results at a time. The meta node in t
 https://api.nytimes.com/svc/search/v2/articlesearch.json?q=&page=0&api-key=yourkey
 
 
-<video src="https://github.com/rreeggeenntt4/apitest.ru/tree/main/media/2022-12-08 05-49-29.mkv"></video>
-
-
-
-
-
-
-
+<video src="https://github.com/rreeggeenntt4/apitest.ru/blob/main/media/2022-12-08 05-49-29.mkv"></video>
