@@ -18,6 +18,8 @@
 
 Получаем ключ.
 
+<img src="https://github.com/rreeggeenntt4/apitest.ru/tree/main/media/2022-12-07_21-01-06.png" alt="">
+
 
 
 На странице https://developer.nytimes.com/docs/articlesearch-product/1/overview
@@ -27,6 +29,10 @@ The Article Search API returns a max of 10 results at a time. The meta node in t
 
 Чтобы подгружать информацию постепенно просто меняем page= 0,1,2, и тд
 https://api.nytimes.com/svc/search/v2/articlesearch.json?q=&page=0&api-key=yourkey
+
+
+<video src="https://github.com/rreeggeenntt4/apitest.ru/tree/main/media/2022-12-08 05-49-29.mkv"></video>
+
 
 
 
