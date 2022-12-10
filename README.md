@@ -39,5 +39,7 @@ video https://github.com/rreeggeenntt4/apitest.ru/raw/main/media/2022-12-08%2005
 Это нормализовало подгрузку новостей.
 video https://github.com/rreeggeenntt4/apitest.ru/raw/main/media/2022-12-10%2015-12-38.mkv
 
-<iframe width="854" height="480" src="https://github.com/rreeggeenntt4/apitest.ru/raw/main/media/2022-12-10%2015-12-38.mkv" frameborder="0" allowfullscreen></iframe>
+-------------------------------------------------------------
+
+Тестовое завершено.
 
