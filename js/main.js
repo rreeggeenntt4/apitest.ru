@@ -51,7 +51,6 @@ function showContent(data) {
 
 
     }
-    return output.innerHTML;
 }
 
 async function getNews(searchline, pagecount) {
@@ -64,7 +63,6 @@ async function getNews(searchline, pagecount) {
 
         console.log(data.response.docs);
         showContent(data.response.docs);
-        return data;
     } else {
         console.log('error', response.status);
     }
@@ -85,17 +83,26 @@ function search() {
 }
 
 
-
 function morenews() {
     pagecount = pagecount + 1;
     getNews(searchline, pagecount);
 }
 
 
-// Если пользователь доскролил до низа страницы
-window.addEventListener('scroll', function () {
-    if ((window.innerHeight + window.pageYOffset) >= document.body.offsetHeight) {
-        morenews();
-    }
-});
+var resizeTimeout;
+function resizeThrottler() {
+    // игнорировать события изменения размера, пока в очереди находится выполнение фактического ResizeHandler
+    if (!resizeTimeout) {
+        // Установка на событие scrool setTimeout
+        resizeTimeout = setTimeout(function () {
+            resizeTimeout = null;
+            if ((window.innerHeight + window.pageYOffset) >= document.body.offsetHeight) {
+                morenews();
+            }
 
+            // ActualResizeHandler будет выполняться со скоростью 15 кадров в секунду.
+        }, 1000);
+    }
+}
+
+window.addEventListener('scroll', resizeThrottler, false);
