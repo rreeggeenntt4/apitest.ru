@@ -38,4 +38,4 @@ video https://github.com/rreeggeenntt4/apitest.ru/raw/main/media/2022-12-08%2005
 игнорировать события изменения размера, пока в очереди находится выполнение фактического ResizeHandler
 Это нормализовало подгрузку новостей.
 video https://github.com/rreeggeenntt4/apitest.ru/raw/main/media/2022-12-10 15-12-38.mkv
-<video src="https://github.com/rreeggeenntt4/apitest.ru/raw/main/media/2022-12-10 15-12-38.mkv">
+<video src="https://github.com/rreeggeenntt4/apitest.ru/raw/main/media/2022-12-10%2015-12-38.mkv"></video>
